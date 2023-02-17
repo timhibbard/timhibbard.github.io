@@ -21,6 +21,7 @@ Medium Priority - Small amount of time (5-10 minutes):
 Medium Priority - Medium amount of time (10-60 minutes):
 - next Stop issue for Denis
 - Update passio go walk though guide
+- API docs for CNLR @due(2023-02-22)
 
 
 Medium Priority - Large amount of time (>1 hour):
