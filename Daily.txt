@@ -1,0 +1,437 @@
+Daily
+
+
+High Priority - Short Time:
+- push out REST endpoints 
+
+
+High Priority - Medium Time:
+- Fix HDPT Jan data (waiting on Jessica)
+- Fixed Connect Dispatch google API
+- Calamp SMS
+
+High Priority - Long Time:
+- Rugters APC data fill
+- Data spec for foothills - have Jon review
+
+Medium Priority - Short Time:
+- Passio One iOS App Store account not working
+- GPS records from UCONN @done
+
+Medium Priority - Medium Time:
+- next Stop issue for Denis
+- Update passio go walk though guide
+
+
+Medium Priority - Long Time:
+
+
+Low Priority - Short Time:
+- inspection report pdf doesn't show pass fail - have rami push now
+- Show list of all users and their access for an agency
+
+Low Priority - Medium Time:
+- Passio GO Alerts not going out right away
+- Geozone creator...is there a better way
+https://passiotech2.slack.com/archives/DJEKQ896G/p1676582967045479
+
+
+Low Priority - Long Time:
+
+
+To Prioritize:
+- review https://github.com/Passio/passio/issues/3042
+- Add trigger in rules engine to ref sysLog table
+- Add itemType and logAction for sampling plan upload to be used by rule engine
+- not elibilge client can request trip and it is approved
+- Arrival button on segment editor with long stop name
+- Snapshot (and maybe driver) - job pulls from now.
+- 7842698483 - DR for 71? Does everyone get DR?
+- write up covert messaging
+- Harrisonburg archive messages
+- Telematic issue from Scott slack db 
+- Can we ignore dwell time
+- TC - Create report that can aggregate specific categories with comments with date range
+- Inspections Reports - Report that pulls driver from SysOps and shows what forms they submitted inspections for. Add filter to check if any of the forms had failing items
+- Arrival time and departure time at layovers
+- https://passiotech.freshdesk.com/a/tickets/14270
+- Route filter issue
+- Talk to Satish about JAWS
+- Anonymous has default rider for ride request 
+- Write up these issues for HDPT https://passiotech2.slack.com/archives/C033AQ4LA6B/p1663181845737409
+- Look to see what needs to be done to fix settings...and see if we still want it keep it
+- Feature request for inspector last date. Screenshot in email
+- Add Corey to pretripposttrip
+- Add default forms - pretrip - posttrip
+- Route selection filter is not recognizing the jobs. Using wrong route name. MDT. Check on MDT
+- duplicate the error when inspector does a post trip inspection after 10:30 pm
+- Feature requests from https://passiotech.freshdesk.com/a/tickets/15386
+- Write up frequencies.txt https://passiotech2.slack.com/archives/C01Q3MVELFJ/p1665762506448969
+- Add issue for pre/post trip maintenance condition seperation
+- finished connection strings for new server
+- rami calc times
+- get Kyle screenshot of detouring route
+- audit unit test
+- route tab in ParaPlan is blank if no assigned trips. Look at existing next stop code
+- Odometer report should have miles travelled
+- Inspector field type that creates incident that when fails goes through the rules engine
+- Submissions should sort by driver and sort by vehicle
+- ETA adherence should use last known adherence 
+- Non circle geofences around stops
+- password expire issue
+- write up workflow for failed inspection items
+- Update HDPT data for sunday
+- Submission bug from Brett https://passiotech2.slack.com/archives/C02KAH5KEEN/p1667403139146499
+- google api key
+- full mdt pax load Harvard
+- duplicate issue where submissions are sending in more than once
+- seibus data restore - hdpt and midlands
+- MDT to log when announcement is played AnnouncementLog table
+- use trips for scheduled miles and hours if first and last stop have arrival and departure
+- Assignment log - source, assignment, prev assignment, date time, driver, vehicle,
+- MDT heartbeat - Attach current assignment
+- GTFS import next step meeting
+- Feature request meeting
+- HDPT passenger count APC vs EPC vs Manual Driver count - Jessica
+- HDPT APC certification process - wait on this
+- HDPT - Denis P1 issues from forms and show in app
+- Download manual log (not in browser) downloads as googletransit and it zip
+- BAT headway - look at this report https://github.com/Passio/passio/issues/3619
+- CCRTA GTFS Status?
+- Route Calendars expiring?
+- route end at the end of the block
+- stop_request: 1 or 0 or null (or not exist)
+- Vonage issue from Rami
+- Can I update Brett's workspace?
+- Hopelink best practice for OOS
+- GTFS Import next steps
+- Chicago next steps drafts://open?C8B72D33-8F00-4852-B95E-1690B8936178
+- Hopelink - showing trips that are not valid (inactive)
+- Hopelink - Inform driver notification option
+- Log into Google Console and get null errors for Kausik to work on
+- Follow up with Apple Country APC
+- Check on Delta API issues. See if Bilal needs anything
+- Call Shawn and show him workflow
+- Follow up on EWR GTFS
+- Talk to Scott Mc About Beliot (LECIP)
+- Write up Incident (drafts://open?uuid=FC36A213-88FB-4E4D-A892-13C57B4D6018)
+- Get Asmita onboarded (Asmita Borawake)
+- Import Riders with Hopelink? Card db?
+- Disney Security questionnaire due 01/11 https://transittechnologiescom.sharepoint.com/:x:/s/ProposalCenterofExcellence/EVln-mljnYxCt8SH2voEbbgBgYww-mEwAuoKTbnD708aYQ
+- Issues from Scott in #development
+- electric icon for Harvard (ideas for future)
+
+
+Inspector:
+- Write up data spec for ingesting vehicles
+- write up data spec for web hook (or queue) for submissions
+- account manager can create customers
+- integration will contain url for vehicle, customer name
+- configuration with API
+- upload excel
+
+App.PassioTransit:
+- implement support for ?
+- Better ETA info in app.passiotransit for testing
+- Add support for new convo in testing
+
+
+
+Scott:
+- work on Connect tables
+
+Passio GO:
+
+ParaPlan Driver:
+- Store and forward on failure
+- Allow driver to have empty drop off location and empty time that is populated by swipe
+- Next Stop not showing up when user is not a driver, then becomes a driver
+- Next Stop not work without GPS
+
+PEN Testing:
+- Enable ParaPlan Server to work with both databases
+- Move ParaPlan Server
+- Enable global login to work with both databases
+- Point APN to new server
+- Find new server for Endpoints
+
+
+
+Mobility Platform:
+- Look at bike/ped
+- Look at contract with Mitch/Lucy
+- Silver Express items
+- User guide for Riders/Dispatcher
+
+CTS:
+
+NTD Augmentation:
+- review pax change with Afanasii
+
+Rutgers:
+
+Bus Buzz:
+- Sign off text needs to pull from database
+- 10 DLC Validation
+- Notifications?
+
+Connect Rider:
+- Add link from Trips to RX
+- Json.entity is null after clicking details
+- Invalid date on confirmation screen
+
+Connect Dispatch:
+
+GTFS:
+- https://github.com/MobilityData/gtfs-grading-scheme
+- Services in the future
+- Ingest arrival times
+- Run RT validator on diff computer
+
+Razorback Safe Ride:
+- Make birthday not mandatory (populate with 1/1/79 on API)
+- Add Custom ID to rider onboarding
+- Add Custom ID to New Trip on Dispatch
+- Setting to make Home address, Local address for rider onboarding
+- Client Profile in Dispatch
+- Rider emails to be SMS
+- Make drop off location home
+
+
+Management:
+
+MPM:
+
+BJCTA:
+
+
+
+Geocoder:
+- Required fields to pull from other services. Like county
+- Remove approximate results
+- Add bad searches table
+- Get all cost data from other brands
+
+House:
+- Wax/wipe on poly on table
+- Noise from laundry pipes in bathroom
+- caulk behind kitchen sink
+- upstairs hall bathroom has gap
+- figure out sprinkler timer
+- caulk around outdoor spigot
+- replace outdoor spigot
+
+Garage:
+- Research above door options
+
+Archive:
+- Make sure Delta has what they need @done @project(Now)
+- Have Kaushik send daily updates @done @project(Now)
+- email to Cheryl about ridership report @done @project(High Priority - Short Time)
+- Bridgewater Dayton need to be manual and pax type @done @project(Now)
+- Jay says publish out of service causes issues when live @done @project(Now)
+- Boy that bikes across the world for Ben @done @project(Now)
+- Solar robot for Landon @done @project(Now)
+- When did I app @done @project(Now)
+- Get info about ARM from Scott @done @project(Now)
+- HDPT - More qa on transition between P1 and PT @done @project(Now)
+- HDPT - Look at mph that is too high @done @project(Now)
+- Flashing screen on Passio GO for rider to flag down driver @done @project(Now)
+- email Chelsea from Delta @done @project(Now)
+- Look at HDPT PMT for bad data @done @project(Now)
+- shelton settings to add services @done @project(Now)
+- Dashed route path if not yet in service for Passio GO @done @project(Now)
+- Cabinet drawers @done @project(Now)
+- Harvard - On time performance route filter bug @done @project(Now)
+- DAYM project @done @project(Now)
+- Go through ellliiots email @done @project(Now)
+- add pax filter to ntd @done @project(Now)
+- Get Rob on moving old PP server and APN server @done @project(Now)
+- Send Delta API info when PR is done @done @project(Now)
+- Set up meeting for Monday or Tuesday for HDPT to lash us @done @project(Now)
+- Android 9 doesn't allow us to prevent power button usage #hdpt @done @project(Now)
+- Check with Scott and Mitch about what we are providing for APC certification @done @project(Now)
+- ParaPlan iOS Payment Types? @done @project(Now)
+- Passio One in App Store with inspector @done @project(Now)
+- roomba review @done @project(Now)
+- write up issue for device change @done @project(Now)
+- write up issue for browser alerts when new message from met @done @project(Now)
+- all vehicles with 3g devices for Lucy @done @project(Now)
+- Screenshots from call with Greg that include text that overlaps @done @project(Now)
+- bus name in telematics json api @done @project(Now)
+- Geofences in lm2 @done @project(Now)
+- Pax per hour and pax per mile on ridership report. Day of the week and number of days. Look at example from Cheryl @done @project(Now)
+- write up server failure @done @project(Now)
+- write up how GTFS works @done @project(Now)
+- Check fields that can be archived @done @project(Now)
+- Write up odometer issue for Rami @done @project(Now)
+- where is the submitter name coming from for inspector #denis @done @project(Now)
+- text connect - better no result screen @done @project(Now)
+- look to see why filter for HDPT is not working on text connect @done @project(Now)
+- Inspector. New form type. On the Pre/Post-trip forms, is there a way to group items together so that checking one box checks all of the boxes for that group? Then if there is something wrong, the form forces a driver to select each item individually and mark which item individually is wrong? Ask Elliot for clarification, it is hard to write out this question. @done @project(Now)
+- Get ptpt https @done @project(Now)
+- Update for Michael for HDPT@done @project(Now)
+- Rami - look at apple country failures @done @project(Now)
+- Rami Can we pull Engine runtime/hours from calamp @done @project(Now)
+- Harvard - Check calendars for Oct 11. Overnight should run on monday, nothing else @done @project(Now)
+- Segments not in CCRTA GTFS @done @project(Now)
+- Ask where the tripIds are in RapidAPI. New GTFS doesn't match RapidAPI. Need blockId preferably. TripID will work @done @project(Now)
+- GPS points to delete + dr (who was that? Ask Sam) @done @project(Now)
+- CSV from apple country bump @done @project(Now)
+- HDPT - APS direct is showing location on the map. Shouldn't be able to show on live maps 2 @done @project(Now)
+- Note from Jessica about calendars in GTFS @done @project(Now)
+- Dev - Issue for upper bound and lower bound speed setting in NTD @done @project(Now)
+- Harvard - Get Harvard access to freshdesk (Andy S and John P) @done @project(Now)
+- Harvard - Email PDF of github issues @done @project(Now)
+- Check in/check out button with driver analytics @done @project(Now)
+- Check in form and check out form to inspector @done @project(Now)
+- Data types for card db @done @project(Now)
+- Build CET doc and send to Jess @done @project(Now)
+- Create tasks based on email from Cheryl @done @project(Now)
+- API failure. Cannot transmit - API failure - 10:45 PM - 11:30 PM @done @project(Now)
+- Let Elliot know when update is live on server @done @project(Now)
+- edit text connect contact @done @project(Now)
+- Set up Lucas and Rami for geotab integration @done @project(Now)
+- Get Lucas info about active vehicles @done @project(Now)
+- NYU A route is showing (outbound) should be looping route @done @project(Now)
+- passio go showing of routes when not active. 1 hour show service starts at TT:hh @done @project(Now)
+- Get telematic data into first class mode @done @project(Now)
+- Next Stop showing wrong address (DO instead of PU) @done @project(Now)
+- edit GitHub permissions for sam @done @project(Now)
+- baycare email  @done @project(Now)
+- What is Denis using for location? @done @project(Now)
+- Issue for how DR is displayed at account level @done @project(Now)
+- Issue for multiple level of dr @done @project(Now)
+- Change hover text for System > Dead Reckoning snap location @done @project(Now)
+- Look at other reporting issues and assign to Sergio @done @project(Now)
+- get Edr from Sergio @done @project(Now)
+- check inspector db for how the tables look...could be entire customer db @done @project(Now)
+- screenshots and video for radford by Tuesday to lucy @done @project(Now)
+- Calamp config that creates incident when unplugged @done @project(Now)
+- USF messaging issue. Nav slow @done @project(Now)
+- Look at messages being slow in #usf @done @project(Now)
+- Ask denis about covert mic @done @project(Now)
+- Set up Elon - elonedu @done @project(Now)
+- Get Denis going on upper Cumberland @done @project(Now)
+- write up messages auto go away in #harrisonburg @done @project(Now)
+- send GPS info to Scott @done @project(Now)
+- Send emails to Chance about Google @done @project(Now)
+- https://passiotech2.slack.com/archives/C01BWMAVCMS/p1658519355450879 @done @project(Now)
+- push out paraplan @done @project(Now)
+- Add Rutgers data at 5:05 am @done @project(Now)
+- Send message to MPM about MQTT heartbeat @done @project(Now)
+- Issue about GO alerts @done @project(Now)
+- add customer column to users @done @project(Now)
+- good morning, afternoon, evening on PtPt.com @done @project(Now)
+- write up gtfs with timepoint not working @done @project(Now)
+- Write up MQTT server @done @project(MPM)
+- Give chad rules engine access @done @project(Scott)
+- Install docker from Sergio @done @project(Scott)
+- Come up with system diagram of predictions GTFS with Afanasii @done @project(Scott)
+- Write up app usage @done @project(Scott)
+- Write up backup routine @done @project(Scott)
+- ask-a-sme https://passiotech2.slack.com/archives/C01AY6FHN2D/p1658262197421679 @done @project(Stop Headsign)
+- GTFS https://passiotech2.slack.com/archives/C01Q3MVELFJ/p1658761596115499 @done @project(Stop Headsign)
+- Filter should look at form @done @project(Inspector)
+- Form order inspector + visible to driver @done @project(Inspector)
+- Reports @done @project(Inspector)
+- stop_headsign @done @project(Now)
+- Better ETA info in app.passiotransit for testing @done @project(Now)
+- gtfs section in segment stop - #gtfs thread and #ask-a-sme thread @done @project(Now)
+- Set up time with Satish for NTD Augementation + Afanasii + Rami @done @project(Now)
+- What does ? Do in text connect for twilio @done @project(Now)
+- Check in with Sergio @done @project(Now)
+- Call Adam about GTFS and ClickOnce @done @project(Management)
+- Review Items from Scott and Carly @done @project(Passio GO)
+- Sam Issue with Stop order(#usf channel) @done @project(Passio GO)
+- Let Bryan know that HDPT will be getting switches @done @project(Now)
+- Issue for tc sign up for alerts @done @project(Now)
+- Issue for go alert @done @project(Now)
+- Send URL to Afanasii for swagger @done @project(Now)
+- Look into sysLog table @done @project(Now)
+- Turn Carly's notes from #ntd-reporting into github project @done @project(Now)
+- GTFS RT validation for UCONN - missing trip id in tripUpdates @done @project(Now)
+- MQTT info to Bryan @done @project(Now)
+- Finish route version @done @project(Now)
+- Push Brett's build @done @project(Now)
+- Dead reckoning list for Lucy @done @project(Now)
+- write up MQTT for HDPT @done @project(Now)
+- Send money for escrow @done @project(Now)
+- KML for CET @done @project(Now)
+- write up trip update @done @project(Now)
+- Hallway iPad holder @done @project(House)
+- Write up issue for faded go alert in #customer-support May 27th @done @project(Now)
+- Meeting with Bryan from MPM @done @project(Now)
+- dhec vaccine exception @done @project(Now)
+- Send info about gtfs to Sean (thread with Jessica in ask-a-sme) @done @project(Now)
+- Customer config for Scotts - including phone type @done @project(Now)
+- Geocoder costs. Standing up QA environment @done @project(Now)
+- Social Media out reach @done @project(Mobility Platform)
+- Send Denis Screenshots @done @project(Passio GO)
+- Setup new user for Denis on Tulane @done @project(Passio GO)
+- CTC @done @project(Now)
+- NATS endpoint @done @project(Now)
+- Drivers/zones/routes/programs for Silver Express @done @project(Now)
+- Email from KAT @done @project(Now)
+- Double check with Bryan on MPM for HDPT. New API specs @done @project(Now)
+- Get APC certification information from Chad @done @project(Now)
+- Send out call info from Chad text @done @project(Now)
+- Ask Scott about Projects call @done @project(Now)
+- Update Hover with credit card@done @project(Now)
+- Words for Sam @done @project(Now)
+- Review Github @done @project(Now)
+- Doc for IMI @done @project(Now)
+- bike rack. Measure nook @done @project(Garage)
+- Call CTC @done @project(House)
+- add readme.md @done @project(Geocoder)
+- Set up MQTT @done @project(BJCTA)
+- write up change to stop table @done @project(MPM)
+- write up change to bus log @done @project(MPM)
+- write up post body @done @project(MPM)
+- write up trigger @done @project(MPM)
+- Move New Trip to front screen @done @project(Razorback Safe Ride)
+- Find way to blow away cache @done @project(Bus Buzz)
+- Does bus buzz sign up for alerts work? @done @project(Bus Buzz)
+- Share with Scott/Carly @done @project(Rutgers)
+- Determine bad records @done @project(Rutgers)
+- Combine APC rows @done @project(Rutgers)
+- Review new data from Afanasii @done @project(Rutgers)
+- set up call with Afanasii + Rami + Carly to get vehicle work group query @done @project(NTD Augmentation)
+- PAX for Rutgers...same way or inject into log? @done @project(NTD Augmentation)
+- write up issues @done @project(NTD Augmentation)
+- review plan with Scott @done @project(NTD Augmentation)
+- finish review with Carly @done @project(NTD Augmentation)
+- Get lucid chart from marina @done @project(CTS)
+- Set up meeting for specs @done @project(CTS)
+- Send Jon post spec for route assignments/IS/OOS @done @project(CTS)
+- Add Micheal to inspector TestFlight @done @project(Passio GO)
+- Try compiling again @done @project(Passio GO)
+- Write up thoughts. Existing draft with previous thoughts and Afanasii's words @done @project(Passio GO)
+- Issue from Denis @done @project(ParaPlan Driver)
+- Install lights @done @project(House)
+- Hinges on art supply cabinet @done @project(House)
+- Push to main branch @due(2022-03-16) @done @project(Geocoder)
+- Push to Dev branch @due(2022-03-14) @done @project(Geocoder)
+- Remove service from passio @done @project(Geocoder)
+- Force order, only call next if first fails @done @project(Geocoder)
+- Add Grasshopper @done @project(Geocoder)
+- Double check server spreadsheet @done @project(Scott)
+- Send swagger docs to josh @due(2022-03-02) @done @project(BJCTA)
+- Submit PassioOne @done @project(Management)
+- Put Micheal in touch with Matt Strausz @done @project(Management)
+- Setup 1:1 with Rami @done @project(Management)
+- How to just use for ETAs as well @done @project(Bus Buzz)
+- Set up CET - they care more about route@done @project(Bus Buzz)
+- Send API to david sims @due(2022-03-04) @done @project(Mobility Platform)
+- Chat with MJM @done @project(Mobility Platform)
+- sfsymbols @done @project(ParaPlan Driver)
+- Upstairs bathroom lock @done @project(House)
+- Add SQL@done @project(Geocoder)
+- publish to transit_dev with tim.hibbard@passiotech.com@done @project(Geocoder)
+- What is the plan for Dispatch/ParaPlan @done @project(Scott)
+- Send Service alerts into to Bryan @done @project(MPM)
+- Check with Bryan on Magellan status @done @project(MPM)
+- Get Chad demo info @due(2022-02-11) @done @project(Mobility Platform)
+- Notify rider when driver presses arrived @uga @due(2022-02-17) @done @project(ParaPlan Driver)
+- Push notifications when new dispatchable trip @done @project(ParaPlan Driver)
+- Only pull dispatchable trips when driver can schedule @done @project(ParaPlan Driver)
