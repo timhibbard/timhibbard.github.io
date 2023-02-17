@@ -7,6 +7,8 @@ High Priority - Medium Time:
 - Fix HDPT Jan data (waiting on Jessica)
 - Fixed Connect Dispatch google API
 - Calamp SMS
+- Icons for Asmita
+https://passiotech2.slack.com/archives/D04KYE1CF0R/p1676624376975409
 
 High Priority - Long Time:
 - Rugters APC data fill
