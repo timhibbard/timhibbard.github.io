@@ -1,5 +1,3 @@
-Daily
-
 
 High Priority - Short Time:
 - push out REST endpoints 
