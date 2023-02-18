@@ -1,39 +1,41 @@
 
 High Priority - Small amount of time (5-10 minutes):
-- push out REST endpoints 
+	- push out REST endpoints 
+	- HDPT update for Scott 
 
 
 High Priority - Medium amount of time (10-60 minutes):
-- Fix HDPT Jan data (waiting on Jessica)
-- Fixed Connect Dispatch google API
-- Calamp SMS
-- Icons for Asmita
+	- Fix HDPT Jan data @waiting
+	- Fixed Connect Dispatch google API
+	- Calamp SMS @due(2022-02-28)
+	- Icons for Asmita
 https://passiotech2.slack.com/archives/D04KYE1CF0R/p1676624376975409
 
 High Priority - Large amount of time (>1 hour):
-- Rugters APC data fill
-- Data spec for foothills - have Jon review
+	- Rugters APC data fill
+	- Data spec for foothills - have Jon review
 
 Medium Priority - Small amount of time (5-10 minutes):
-- Passio One iOS App Store account not working
-- GPS records from UCONN @done
+	- Passio One iOS App Store account not working
+	- GPS records from UCONN @done(2023-02-17)
 
 Medium Priority - Medium amount of time (10-60 minutes):
-- next Stop issue for Denis
-- Update passio go walk though guide
-- API docs for CNLR @due(2023-02-22)
+	- next Stop issue for Denis
+	- Update passio go walk though guide
+	- API docs for CNLR @due(2023-02-22)
+
 
 
 Medium Priority - Large amount of time (>1 hour):
 
 
 Low Priority - Small amount of time (5-10 minutes):
-- inspection report pdf doesn't show pass fail - have rami push now
-- Show list of all users and their access for an agency
+	- inspection report pdf doesn't show pass fail - have rami push now
+	- Show list of all users and their access for an agency
 
 Low Priority - Medium amount of time (10-60 minutes):
-- Passio GO Alerts not going out right away
-- Geozone creator...is there a better way
+	- Passio GO Alerts not going out right away
+	- Geozone creator...is there a better way
 https://passiotech2.slack.com/archives/DJEKQ896G/p1676582967045479
 
 
