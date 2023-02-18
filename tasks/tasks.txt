@@ -1,6 +1,9 @@
+
 High Priority - Small amount of time (5-10 minutes):
 	- push out REST endpoints 
 	- HDPT update for Scott 
+	- Update Shawn about email improvements
+	- Update Cheryl about Odometer report
 
 
 High Priority - Medium amount of time (10-60 minutes):
@@ -40,6 +43,16 @@ https://passiotech2.slack.com/archives/DJEKQ896G/p1676582967045479
 
 Low Priority - Large amount of time (>1 hour):
 
+
+
+Home:
+	- hang mirror in Landon's room
+	- Draw up plans for Ben's desk
+	- Garage organizing 
+	- Take Ben to Michael's  @done(2023-02-18)
+	- Replace Landon's drawer pulls
+	- Fix the plant trellis
+	- Get IRS forms to Ben
 
 To Prioritize:
 - review https://github.com/Passio/passio/issues/3042
