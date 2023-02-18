@@ -1,4 +1,3 @@
-
 High Priority - Small amount of time (5-10 minutes):
 	- push out REST endpoints 
 	- HDPT update for Scott 
