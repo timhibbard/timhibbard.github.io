@@ -1,17 +1,24 @@
 
 High Priority - Small amount of time (5-10 minutes):
 	- push out REST endpoints 
-	- HDPT update for Scott 
-	- Update Shawn about email improvements
-	- Update Cheryl about Odometer report
-
+	- HDPT update for Scott  @done(2023-02-20)
+	- Update Shawn about email improvements @done(2023-02-20)
+	- Update Cheryl about Odometer report @done(2023-02-20)
+	- Ridership report
+		- Export sucks
+		- Compare range not working
+	- Michael to take SOP for HDPT @done(2023-02-20)
 
 High Priority - Medium amount of time (10-60 minutes):
 	- Fix HDPT Jan data @waiting
 	- Fixed Connect Dispatch google API
-	- Calamp SMS @due(2022-02-28)
+	- Calamp SMS @due(2022-02-24)
 	- Icons for Asmita
 https://passiotech2.slack.com/archives/D04KYE1CF0R/p1676624376975409
+	- Reports that are wrapping poorly
+		- Daily APC Passenger Type Boardings by Segment
+		- Daily Passenger Type Boardings by Segment
+	- timepoint versioning update
 
 High Priority - Large amount of time (>1 hour):
 	- Rugters APC data fill
@@ -30,11 +37,13 @@ Medium Priority - Medium amount of time (10-60 minutes):
 
 Medium Priority - Large amount of time (>1 hour):
 	- Employee goals and objectives @due(2023-02-28)
+https://transittechnologiescom-my.sharepoint.com/:w:/r/personal/tim_hibbard_passiotech_com/Documents/Tim%20Hibbard2023%20Performance%20Objectives%20Document%202.1.23.docx?d=w4cac778e7b204fedbe5f7780e5427d18&csf=1&web=1&e=cgJ8aD
 
 
 Low Priority - Small amount of time (5-10 minutes):
 	- inspection report pdf doesn't show pass fail - have rami push now
 	- Show list of all users and their access for an agency
+	- Show timezone on publish status
 
 Low Priority - Medium amount of time (10-60 minutes):
 	- Passio GO Alerts not going out right away
@@ -133,7 +142,7 @@ To Prioritize:
 	- Odometer report should have miles travelled
 	- Inspector field type that creates incident that when fails goes through the rules engine
 	- Submissions should sort by driver and sort by vehicle
-	- ETA adherence should use last known adherence 
+	- ETA adherence should use last known adherence (Put calculated eta adhearsnce stop in tooltip for D&M) - make sure uses departure 
 	- Non circle geofences around stops
 	- password expire issue
 	- write up workflow for failed inspection items
