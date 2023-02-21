@@ -8,6 +8,12 @@ High Priority - Small amount of time (5-10 minutes):
 		- Export sucks
 		- Compare range not working
 	- Michael to take SOP for HDPT @done(2023-02-20)
+	- Call Elliot regarding publish
+	- Config issue for Ozark
+	- Email pinhole issue @done(2023-02-21)
+	- Email throttle issue @done(2023-02-21)
+	- Inspector - remove delete admin @done(2023-02-21)
+	- Inspector - add ability for admin @done(2023-02-21)
 
 High Priority - Medium amount of time (10-60 minutes):
 	- Fix HDPT Jan data @waiting
@@ -18,7 +24,8 @@ https://passiotech2.slack.com/archives/D04KYE1CF0R/p1676624376975409
 	- Reports that are wrapping poorly
 		- Daily APC Passenger Type Boardings by Segment
 		- Daily Passenger Type Boardings by Segment
-	- timepoint versioning update
+	- timepoint versioning update @done(2023-02-21)
+	- Show ignition at fleet logistics - pull from device.ignOn + device.ignOff @done(2023-02-21)
 
 High Priority - Large amount of time (>1 hour):
 	- Rugters APC data fill
