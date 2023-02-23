@@ -4,12 +4,12 @@ High Priority - Small amount of time (5-10 minutes):
 	- HDPT update for Scott  @done(2023-02-20)
 	- Update Shawn about email improvements @done(2023-02-20)
 	- Update Cheryl about Odometer report @done(2023-02-20)
-	- Ridership report
-		- Export sucks
-		- Compare range not working
+	- Ridership report @done(2023-02-21)
+		- Export sucks @done(2023-02-21)
+		- Compare range not working @done(2023-02-21)
 	- Michael to take SOP for HDPT @done(2023-02-20)
-	- Call Elliot regarding publish
-	- Config issue for Ozark
+	- Call Elliot regarding publish @done(2023-02-21)
+	- Config issue for Ozark @done(2023-02-22)
 	- Email pinhole issue @done(2023-02-21)
 	- Email throttle issue @done(2023-02-21)
 	- Inspector - remove delete admin @done(2023-02-21)
@@ -19,31 +19,32 @@ High Priority - Medium amount of time (10-60 minutes):
 	- Fix HDPT Jan data @waiting
 	- Fixed Connect Dispatch google API
 	- Calamp SMS @due(2022-02-24)
-	- Icons for Asmita
-https://passiotech2.slack.com/archives/D04KYE1CF0R/p1676624376975409
+	- Icons for Asmita @done(2023-02-22)
 	- Reports that are wrapping poorly
 		- Daily APC Passenger Type Boardings by Segment
 		- Daily Passenger Type Boardings by Segment
 	- timepoint versioning update @done(2023-02-21)
 	- Show ignition at fleet logistics - pull from device.ignOn + device.ignOff @done(2023-02-21)
+	- API docs for CNLR @due(2023-02-22) @done(2023-02-21)
+	- Actual hours should be 65.5 (or 63) for Saturday JMUADM
+	- Check Sundays day filter on NDT report
 
 High Priority - Large amount of time (>1 hour):
 	- Rugters APC data fill
 	- Data spec for foothills - have Jon review
 
 Medium Priority - Small amount of time (5-10 minutes):
-	- Passio One iOS App Store account not working
+	- Passio One iOS App Store account not working @done(2023-02-22)
 
 Medium Priority - Medium amount of time (10-60 minutes):
 	- next Stop issue for Denis
-	- Update passio go walk though guide
-	- API docs for CNLR @due(2023-02-22)
+	- Update passio go walk though guide (double check punctuation)
 	- write up data spec for web hook (or queue) for submissions @inspector
 
 
 
 Medium Priority - Large amount of time (>1 hour):
-	- Employee goals and objectives @due(2023-02-28)
+	- Employee goals and objectives @due(2023-02-22)
 https://transittechnologiescom-my.sharepoint.com/:w:/r/personal/tim_hibbard_passiotech_com/Documents/Tim%20Hibbard2023%20Performance%20Objectives%20Document%202.1.23.docx?d=w4cac778e7b204fedbe5f7780e5427d18&csf=1&web=1&e=cgJ8aD
 
 
