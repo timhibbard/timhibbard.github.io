@@ -1,40 +1,23 @@
 
 High Priority - Small amount of time (5-10 minutes):
-	- push out REST endpoints 
-	- HDPT update for Scott  @done(2023-02-20)
-	- Update Shawn about email improvements @done(2023-02-20)
-	- Update Cheryl about Odometer report @done(2023-02-20)
-	- Ridership report @done(2023-02-21)
-		- Export sucks @done(2023-02-21)
-		- Compare range not working @done(2023-02-21)
-	- Michael to take SOP for HDPT @done(2023-02-20)
-	- Call Elliot regarding publish @done(2023-02-21)
-	- Config issue for Ozark @done(2023-02-22)
-	- Email pinhole issue @done(2023-02-21)
-	- Email throttle issue @done(2023-02-21)
-	- Inspector - remove delete admin @done(2023-02-21)
-	- Inspector - add ability for admin @done(2023-02-21)
+	- push out REST endpoints  @done(2023-02-22)
+	- Active Calendar UI tool updates
 
 High Priority - Medium amount of time (10-60 minutes):
 	- Fix HDPT Jan data @waiting
 	- Fixed Connect Dispatch google API
 	- Calamp SMS @due(2022-02-24)
-	- Icons for Asmita @done(2023-02-22)
 	- Reports that are wrapping poorly
 		- Daily APC Passenger Type Boardings by Segment
 		- Daily Passenger Type Boardings by Segment
-	- timepoint versioning update @done(2023-02-21)
-	- Show ignition at fleet logistics - pull from device.ignOn + device.ignOff @done(2023-02-21)
-	- API docs for CNLR @due(2023-02-22) @done(2023-02-21)
 	- Actual hours should be 65.5 (or 63) for Saturday JMUADM
-	- Check Sundays day filter on NDT report
+	- Check Sundays day filter on NDT report @done
 
 High Priority - Large amount of time (>1 hour):
 	- Rugters APC data fill
 	- Data spec for foothills - have Jon review
 
 Medium Priority - Small amount of time (5-10 minutes):
-	- Passio One iOS App Store account not working @done(2023-02-22)
 
 Medium Priority - Medium amount of time (10-60 minutes):
 	- next Stop issue for Denis
@@ -136,7 +119,6 @@ To Prioritize:
 	- Write up these issues for HDPT https://passiotech2.slack.com/archives/C033AQ4LA6B/p1663181845737409
 	- Look to see what needs to be done to fix settings...and see if we still want it keep it
 	- Feature request for inspector last date. Screenshot in email
-	- Add Corey to pretripposttrip @done
 	- Route selection filter is not recognizing the jobs. Using wrong route name. MDT. Check on MDT
 	- duplicate the error when inspector does a post trip inspection after 10:30 pm
 	- Feature requests from https://passiotech.freshdesk.com/a/tickets/15386
@@ -159,13 +141,11 @@ To Prioritize:
 	- google api key
 	- full mdt pax load Harvard
 	- duplicate issue where submissions are sending in more than once
-	- seibus data restore - hdpt and midlands @done
 	- MDT to log when announcement is played AnnouncementLog table
 	- use trips for scheduled miles and hours if first and last stop have arrival and departure
 	- Assignment log - source, assignment, prev assignment, date time, driver, vehicle,
 	- MDT heartbeat - Attach current assignment
 	- GTFS import next step meeting
-	- Feature request meeting @done
 	- HDPT passenger count APC vs EPC vs Manual Driver count - Jessica
 	- HDPT APC certification process - wait on this
 	- HDPT - Denis P1 issues from forms and show in app
@@ -195,6 +175,27 @@ Razorback Safe Ride:
 	- Make drop off location home
 
 Archive:
+	- Feature request meeting @done @project(To Prioritize)
+	- seibus data restore - hdpt and midlands @done @project(To Prioritize)
+	- Add Corey to pretripposttrip @done @project(To Prioritize)
+	- Passio One iOS App Store account not working @done(2023-02-22) @project(Medium Priority - Small amount of time (5-10 minutes))
+	- API docs for CNLR @due(2023-02-22) @done(2023-02-21) @project(High Priority - Medium amount of time (10-60 minutes))
+	- Show ignition at fleet logistics - pull from device.ignOn + device.ignOff @done(2023-02-21) @project(High Priority - Medium amount of time (10-60 minutes))
+	- timepoint versioning update @done(2023-02-21) @project(High Priority - Medium amount of time (10-60 minutes))
+	- Icons for Asmita @done(2023-02-22) @project(High Priority - Medium amount of time (10-60 minutes))
+	- Inspector - add ability for admin @done(2023-02-21) @project(High Priority - Small amount of time (5-10 minutes))
+	- Inspector - remove delete admin @done(2023-02-21) @project(High Priority - Small amount of time (5-10 minutes))
+	- Email throttle issue @done(2023-02-21) @project(High Priority - Small amount of time (5-10 minutes))
+	- Email pinhole issue @done(2023-02-21) @project(High Priority - Small amount of time (5-10 minutes))
+	- Config issue for Ozark @done(2023-02-22) @project(High Priority - Small amount of time (5-10 minutes))
+	- Call Elliot regarding publish @done(2023-02-21) @project(High Priority - Small amount of time (5-10 minutes))
+	- Michael to take SOP for HDPT @done(2023-02-20) @project(High Priority - Small amount of time (5-10 minutes))
+		- Compare range not working @done(2023-02-21) @project(High Priority - Small amount of time (5-10 minutes))
+		- Export sucks @done(2023-02-21) @project(High Priority - Small amount of time (5-10 minutes))
+	- Ridership report @done(2023-02-21) @project(High Priority - Small amount of time (5-10 minutes))
+	- Update Cheryl about Odometer report @done(2023-02-20) @project(High Priority - Small amount of time (5-10 minutes))
+	- Update Shawn about email improvements @done(2023-02-20) @project(High Priority - Small amount of time (5-10 minutes))
+	- HDPT update for Scott  @done(2023-02-20) @project(High Priority - Small amount of time (5-10 minutes))
 	- upload excel @done(2023-02-19) @project(Inspector)
 	- configuration with API @done(2023-02-19) @project(Inspector)
 	- integration will contain url for vehicle, customer name @done(2023-02-19) @project(Inspector)
