@@ -6,6 +6,8 @@ High Priority - Small amount of time (5-10 minutes):
 	- Push out Passio iOS GO
 	- QA Android #37
 	- Issue about Pax Load Report. Select All...look at video
+	- Send API docs to Cybage
+	- Add Pratheek to Slack and Github
 
 High Priority - Medium amount of time (10-60 minutes):
 	- Fix HDPT Jan data @waiting
@@ -18,6 +20,7 @@ High Priority - Medium amount of time (10-60 minutes):
 	- Check Sundays day filter on NDT report @done
 	- Words for Kyle/Keven about APC @due(2023-03-01)
 	- Review Chapman presentation from Scott M
+	- Redesign Timepoint change summery from drafts://open?uuid=E58637AD-E9F1-4394-B929-CCF6DED67F5E
 
 High Priority - Large amount of time (>1 hour):
 	- Rugters APC data fill
@@ -27,6 +30,8 @@ Medium Priority - Small amount of time (5-10 minutes):
 	- Check the publish on Elliot copy
 	- Check on SacAir issue https://github.com/Passio/passio/issues/3714
 	- Email alert and browser alerts when a calendar is going to expire for a segment or segment block - rules engine
+	- Aaron - what should automatically happen when an account shuts down
+	- PassioTransit - When OOS, check for new config every 2 minutes 
 
 Medium Priority - Medium amount of time (10-60 minutes):
 	- next Stop issue for Denis
@@ -36,6 +41,10 @@ Medium Priority - Medium amount of time (10-60 minutes):
 	- Odometer collection https://t-tgo.monday.com/boards/4010774159/pulses/4010777614
 	- Let MPM know about You Are Here request https://t-tgo.monday.com/boards/4010774159/pulses/4010777607
 	- Test APK P1-48
+	- Look at Google Transit replies for UCHRA
+	- Write up stop view checklist https://t-tgo.monday.com/boards/4010774159/pulses/4010777619
+	- Write up AVA geofences https://t-tgo.monday.com/boards/4010774159/pulses/4010777370
+	- Email alert and browser alerts when a calendar is going to expire
 
 
 
