@@ -2,6 +2,10 @@
 High Priority - Small amount of time (5-10 minutes):
 	- push out REST endpoints  @done(2023-02-22)
 	- Active Calendar UI tool updates
+	- Hide timetable view, show segment block editor view by default
+	- Push out Passio iOS GO
+	- QA Android #37
+	- Issue about Pax Load Report. Select All...look at video
 
 High Priority - Medium amount of time (10-60 minutes):
 	- Fix HDPT Jan data @waiting
@@ -10,19 +14,28 @@ High Priority - Medium amount of time (10-60 minutes):
 	- Reports that are wrapping poorly
 		- Daily APC Passenger Type Boardings by Segment
 		- Daily Passenger Type Boardings by Segment
-	- Actual hours should be 65.5 (or 63) for Saturday JMUADM
+	- Actual hours should be 65.5 (or 63) for Saturday JMUADM @done(2023-02-24)
 	- Check Sundays day filter on NDT report @done
+	- Words for Kyle/Keven about APC @due(2023-03-01)
+	- Review Chapman presentation from Scott M
 
 High Priority - Large amount of time (>1 hour):
 	- Rugters APC data fill
 	- Data spec for foothills - have Jon review
 
 Medium Priority - Small amount of time (5-10 minutes):
+	- Check the publish on Elliot copy
+	- Check on SacAir issue https://github.com/Passio/passio/issues/3714
+	- Email alert and browser alerts when a calendar is going to expire for a segment or segment block - rules engine
 
 Medium Priority - Medium amount of time (10-60 minutes):
 	- next Stop issue for Denis
 	- Update passio go walk though guide (double check punctuation)
 	- write up data spec for web hook (or queue) for submissions @inspector
+	- Design power users drafts://open?uuid=C54428A2-5D33-4C3B-85DB-31CE99ECCC46
+	- Odometer collection https://t-tgo.monday.com/boards/4010774159/pulses/4010777614
+	- Let MPM know about You Are Here request https://t-tgo.monday.com/boards/4010774159/pulses/4010777607
+	- Test APK P1-48
 
 
 
@@ -42,6 +55,8 @@ Low Priority - Medium amount of time (10-60 minutes):
 https://passiotech2.slack.com/archives/DJEKQ896G/p1676582967045479
 
 	- Custom icon for vehicles (leaf for Harvard's EVs)
+	- Apply button https://t-tgo.monday.com/boards/4010774159/pulses/4010777586
+	- add support uploading of file for all service types https://t-tgo.monday.com/boards/4010774159/pulses/4010777584
 
 
 Low Priority - Large amount of time (>1 hour):
