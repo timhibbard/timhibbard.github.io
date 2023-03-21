@@ -1,37 +1,34 @@
 
 High Priority - Small amount of time (5-10 minutes):
-	- push out REST endpoints  @done(2023-02-22)
 	- Active Calendar UI tool updates
 	- Hide timetable view, show segment block editor view by default
 	- Push out Passio iOS GO
-	- QA Android #37
 	- Issue about Pax Load Report. Select All...look at video
-	- Send API docs to Cybage
-	- Add Pratheek to Slack and Github
+	- Ridership report
+	- Vehicles and drivers search - look at date range...not enough data - odometer HDPT - add date range
+	- Cannot delete trips from new segment block editor
 
 High Priority - Medium amount of time (10-60 minutes):
-	- Fix HDPT Jan data @waiting
 	- Fixed Connect Dispatch google API
-	- Calamp SMS @due(2022-02-24)
 	- Reports that are wrapping poorly
 		- Daily APC Passenger Type Boardings by Segment
 		- Daily Passenger Type Boardings by Segment
-	- Actual hours should be 65.5 (or 63) for Saturday JMUADM @done(2023-02-24)
-	- Check Sundays day filter on NDT report @done
-	- Words for Kyle/Keven about APC @due(2023-03-01)
-	- Review Chapman presentation from Scott M
 	- Redesign Timepoint change summery from drafts://open?uuid=E58637AD-E9F1-4394-B929-CCF6DED67F5E
+	- Archive Passio GO alerts
+	- Check if service calendar checker looks at times @rami
+	- Check into MDT OOS hot swap issue. Is problem because of paxLoad @scott
+	- Populate Ridership per revenue https://github.com/Passio/passio/blob/master/report/gps/perRevenue/README.md
+	- Add badge to hamburger menu of Passio go for new messages and other
 
 High Priority - Large amount of time (>1 hour):
-	- Rugters APC data fill
-	- Data spec for foothills - have Jon review
+	- Github help for Rules, Actions, Geofences, and Incidents https://passiotech2.slack.com/archives/C04CRV64CR4/p1678638520291059
 
 Medium Priority - Small amount of time (5-10 minutes):
-	- Check the publish on Elliot copy
 	- Check on SacAir issue https://github.com/Passio/passio/issues/3714
 	- Email alert and browser alerts when a calendar is going to expire for a segment or segment block - rules engine
 	- Aaron - what should automatically happen when an account shuts down
 	- PassioTransit - When OOS, check for new config every 2 minutes 
+	- Tooltip Monday board
 
 Medium Priority - Medium amount of time (10-60 minutes):
 	- next Stop issue for Denis
@@ -115,11 +112,9 @@ Inspector:
 Home:
 	- Draw up plans for Ben's desk
 	- work on garage 
-	- Get IRS forms to Ben
 	- Wax/wipe on poly on table
 	- caulk behind kitchen sink
 	- upstairs hall bathroom has gap
-	- figure out sprinkler timer
 	- caulk around outdoor spigot
 	- replace outdoor spigot
 	- Research above garage door options
@@ -199,6 +194,33 @@ Razorback Safe Ride:
 	- Make drop off location home
 
 Archive:
+	- Write email to Colby @done(2023-03-20) @project(High Priority - Medium amount of time (10-60 minutes))
+	- HDPT Sampling schedule issue @done(2023-03-20) @project(High Priority - Medium amount of time (10-60 minutes))
+	- Route 6 APC Certification Monday trip @done(2023-03-20) @project(High Priority - Small amount of time (5-10 minutes))
+	- NTD Augmentation call with Cheryl and Katelynn @done(2023-03-20) @project(High Priority - Small amount of time (5-10 minutes))
+	- September email from Cheryl @done(2023-03-20) @project(High Priority - Small amount of time (5-10 minutes))
+	- Billing for citylink @done(2023-03-20) @project(High Priority - Small amount of time (5-10 minutes))
+	- Odometer search for dev call  @done(2023-03-20) @project(High Priority - Small amount of time (5-10 minutes))
+	- SMS update PR  @done(2023-03-20) @project(High Priority - Small amount of time (5-10 minutes))
+	- Cybage clarification on next step @done(2023-03-20) @project(High Priority - Small amount of time (5-10 minutes))
+	- Docker update @done(2023-03-20) @project(High Priority - Small amount of time (5-10 minutes))
+	- figure out sprinkler timer @done(2023-03-20) @project(Home)
+	- Get IRS forms to Ben @done(2023-03-20) @project(Home)
+	- Check the publish on Elliot copy @done(2023-03-20) @project(Medium Priority - Small amount of time (5-10 minutes))
+	- Data spec for foothills - have Jon review  @done(2023-03-20) @project(High Priority - Large amount of time (>1 hour))
+	- Rugters APC data fill  @done(2023-03-13) @project(High Priority - Large amount of time (>1 hour))
+	- OTP report should have data right away @cnrl @done(2023-03-20) @project(High Priority - Medium amount of time (10-60 minutes))
+	- Review Chapman presentation from Scott M @done(2023-03-20) @project(High Priority - Medium amount of time (10-60 minutes))
+	- Words for Kyle/Keven about APC @due(2023-03-01) @done(2023-03-20) @project(High Priority - Medium amount of time (10-60 minutes))
+	- Check Sundays day filter on NDT report @done @project(High Priority - Medium amount of time (10-60 minutes))
+	- Actual hours should be 65.5 (or 63) for Saturday JMUADM @done(2023-02-24) @project(High Priority - Medium amount of time (10-60 minutes))
+	- Calamp SMS @due(2022-02-24) @done(2023-03-20) @project(High Priority - Medium amount of time (10-60 minutes))
+	- Fix HDPT Jan data @waiting  @done(2023-03-14) @project(High Priority - Medium amount of time (10-60 minutes))
+	- VOMS update @done(2023-03-20) @project(High Priority - Small amount of time (5-10 minutes))
+	- Add Pratheek to Slack and Github @done(2023-03-13) @project(High Priority - Small amount of time (5-10 minutes))
+	- Send API docs to Cybage @done(2023-03-13) @project(High Priority - Small amount of time (5-10 minutes))
+	- QA Android #37 @done(2023-03-01) @project(High Priority - Small amount of time (5-10 minutes))
+	- push out REST endpoints  @done(2023-02-22) @project(High Priority - Small amount of time (5-10 minutes))
 	- Feature request meeting @done @project(To Prioritize)
 	- seibus data restore - hdpt and midlands @done @project(To Prioritize)
 	- Add Corey to pretripposttrip @done @project(To Prioritize)
